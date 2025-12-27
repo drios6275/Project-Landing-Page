@@ -2,10 +2,12 @@
 
 * {
     font-family: "Roboto";
+    
 }
 
 body{
     margin: 0;
+    
     
 }
 
@@ -33,7 +35,7 @@ body{
 .izquierda {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 420px;
     
     
     
@@ -51,7 +53,7 @@ body{
 
 
 
- h1{
+ .izquierda h1{
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
@@ -67,7 +69,7 @@ body{
 
 }
 
- button{
+ .izquierda button{
 background-color: #3882F6;
 border-radius: 10px;
 padding: 10px;
@@ -106,3 +108,153 @@ img{
 }
 
 
+.parte2 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.parte2 h1 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-top: 45px;
+    text-align: center;
+    margin-bottom: 50px;
+   
+}
+
+.contenedor-imagenes {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.imagen {
+    height: 160px;
+    width:160px;
+    border: solid rgb(43, 138, 247) 5px ;
+    border-radius: 15px;
+    
+}
+
+.cuadro1,.cuadro2,.cuadro3,.cuadro4 {
+    width: 160px ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+}
+
+.texto-imagen {
+    font-size: 18px;
+    color: #1c2a47;
+    margin-top: 7px;
+}
+
+
+.parte3 {
+     background-color:#E5E7EB ;
+     display: flex;
+     flex-direction: column;
+   
+     
+
+}
+
+
+
+
+
+.texto-parte3 {
+    color: #1c2a47;
+    align-self: center;
+    width: 830px;
+    padding: 100px;
+    font-size: 36px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-style: italic;
+
+}
+
+
+.cita-parte3 {
+     align-self: center;
+     display: flex;
+     width:800px;
+     justify-content: end;
+     padding-bottom: 100px;
+}
+
+.cita-parte3 p {
+    color: #1F2937;
+    margin: 0;
+    font-weight: bold;
+    
+    
+}
+
+
+.parte4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    
+}
+
+.container {
+    width: 1000px;
+    height: 150px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 15px;
+
+}
+
+.parte4-izquierda{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.parte4-izquierda h1 , .parte4-izquierda p{
+    margin: 0;
+}
+
+.parte4-izquierda h1 {
+    color: white;
+}
+
+.container button {
+    background-color: #3882F6;
+    border: solid white 1px;
+    color: white;
+    border-radius: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+
+
+}
+
+
+.parte5 {
+    background-color: #1F2937;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
